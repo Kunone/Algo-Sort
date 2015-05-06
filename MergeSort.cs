@@ -26,7 +26,7 @@ class Algo_Sort_MergeSort
 
     static void MergeSort(int[] a, int[] aux, int lo, int hi)
     {
-        var mid = ((hi - lo) / 2) + lo;
+        var mid = (hi + lo) / 2;
         if (lo >= hi) return;
         MergeSort(a, aux, lo, mid);
         MergeSort(a, aux, mid + 1, hi);

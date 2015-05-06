@@ -1,7 +1,11 @@
 # Algo-Sort
-To review some sort algorithms
+To review some sort algorithms.
 
 Included:
-Main.cs: app entry to test sort algos.
+1. Main.cs: Entry to test
+2. one algo per file
 
-one algo per file
+To do:
+1. Shuffle
+2. Merge
+3. Merge inplace
